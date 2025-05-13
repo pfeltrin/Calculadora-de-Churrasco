@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Churrasco</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1 id="titleMapa">MAPA</h1>
+    <h3>CALCULADORA DE CHURRASCO</h3>
+      <form action="" id="Form">
+        <div>
+          <p id="ptitle">Preencha os dados abaixo:</p>
+          <label for="homens">Homens:</label>
+          <input value="0" type="number" name="qtdhomens" id="qtdhomens" min="0">
+        </div>
+        <div>
+          <label for="mulheres">Mulheres:</label>
+          <input value="0" type="number" name="qtdmulheres" id="qtdmulheres" min="0">
+        </div>
+        <div>
+          <label for="crianças">Crianças:</label>
+          <input value="0" type="number" name="qtdcrianças" id="qtdcrianças" min="0">
+        </div>
+        <div class="button">
+          <input id="buttonCalc" type="button" value="CALCULAR" onclick="calcular()">
+      </form>
+
+    <p id="textQtd">Quantidade de itens a serem comprados:</p>
+      <div id="result"> 
+        <li> Carne Bovina: 0.0 Kg </li></br>
+        <li> Frango: 0.0 Kg </li></br>
+        <li> Linguiça: 0.0 Kg </li></br>
+        <li> Refrigerante: 0.0 L </li></br>
+        <li> Cerveja: 0.0 L </li></br>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
