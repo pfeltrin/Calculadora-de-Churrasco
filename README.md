@@ -3,7 +3,7 @@
   Página com um script simples aonde é possível calcular a quantia de cada ítem por pessoa.
 </h3>
 <p align="center">
-<img alt="calculadora" src="CalculadoraChurras.png" /></img>
+<video alt="calculadora" src="CalculadoraChurras.mp4" /></video>
 </p>
 <p align="center"> Feito por: Patrick Feltrin </p>
 <p align="center">
