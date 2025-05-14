@@ -18,4 +18,4 @@
 
 - [X] Cálculo de ítens por pessoa
 
-- [X] Resposta com resultado 
+- [X] Resposta com resultado
